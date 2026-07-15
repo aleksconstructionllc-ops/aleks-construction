@@ -60,7 +60,7 @@ export async function POST(request: Request) {
     }
 
     const { data, error } = await resend.emails.send({
-      from: "Aleks Construction <noreply@aleksconstructionllc.com>",
+      from: "Aleks Construction <noreply@aleksconstruction.com>",
       to: ["aleksconstructionllc@gmail.com"],
       replyTo: email,
       subject: `New Estimate Request - ${service}`,
